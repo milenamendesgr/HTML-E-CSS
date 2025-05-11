@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(156, 4, 4);
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:active {
+            color: aquamarine;
+        }
+        .especial::after {
+            content: ' [link] ';
+            text-decoration: none;
+            font-weight: normal;
+            color: yellowgreen;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Exercício 020</h1>
+    <ul>
+        <li><a href="http://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="http://youtube.com" class="especial">Canal do Youtube</a></li>
+        <li><a href="http://cursoemvideo.com">Site CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
